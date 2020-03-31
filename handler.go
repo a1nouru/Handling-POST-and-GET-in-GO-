@@ -7,7 +7,7 @@ import(
 )
 
 // Servepage serves a page based on the route matched. This will match any URL
-//Beginning with /page
+//Beginning with /page. WOW
 
 func servePage (w http.ResponseWriter, r *http.Request){
 	path := strings.TrimLeft(r.URL.Path, "/page/")
